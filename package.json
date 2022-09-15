@@ -1,0 +1,51 @@
+{
+  "name": "rfcos-context-webhook",
+  "homepage": "https://github.com/reelyactive/rfcos-context-webhook/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Enrich RF Controls real-time location data with context and forward via webhook.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "RF Controls",
+    "RFC OS",
+    "RTLS",
+    "webhook"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "main": "./lib/rfcoscontextwebhook.js",
+  "scripts": {
+    "start": "node bin/rfcos-context-webhook",
+    "simulator": "node bin/rfcos-context-webhook-simulator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/rfcos-context-webhook.git"
+  },
+  "dependencies": {
+    "barnacles": "^1.5.2",
+    "barnacles-socketio": "^1.0.0",
+    "barnacles-webhook": "^1.2.0",
+    "barnowl": "^1.2.2",
+    "barnowl-rfcontrols": "^0.5.0",
+    "chickadee": "^1.4.0",
+    "chimps": "^0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/rfcos-context-webhook/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}

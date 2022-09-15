@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const RFCOSContextWebhook = require('../lib/rfcoscontextwebhook.js');
+
+let middleware = new RFCOSContextWebhook({ simulateRFCOS: true });
