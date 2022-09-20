@@ -13,7 +13,7 @@
     "RTLS",
     "webhook"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "node": ">=10.0.0"
   },
@@ -32,7 +32,7 @@
     "barnacles-webhook": "^1.2.0",
     "barnowl": "^1.2.2",
     "barnowl-rfcontrols": "^0.5.0",
-    "chickadee": "^1.4.0",
+    "chickadee": "^1.5.1",
     "chimps": "^0.3.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
