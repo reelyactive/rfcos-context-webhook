@@ -33,7 +33,7 @@
     "barnowl": "^1.2.2",
     "barnowl-rfcontrols": "^0.5.0",
     "chickadee": "^1.5.3",
-    "chimps": "^0.3.1",
+    "chimps": "^0.4.0",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "socket.io": "^4.5.0"
