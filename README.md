@@ -13,7 +13,7 @@ Clone this repository, and from its root folder, run `npm install` to install al
 Quick Start
 -----------
 
-To start __rfcos-context-webhook__ with _simulated_ data, run `npm run simulator` from the root folder.  Browse to [localhost:3001/context](http://localhost:3001/context) to see simulated data, and/or listen for HTTP POSTs to localhost:3002/spatems & localhost:3002/raddecs.
+To start __rfcos-context-webhook__ with _simulated_ data, run `npm run simulator` from the root folder.  If an instance of RFC OS is running with default credentials on the same machine, run `npm start` to collect real-time data.   Browse to [localhost:3001/context](http://localhost:3001/context) to see simulated data, and/or listen for HTTP POSTs to localhost:3002/spatems & localhost:3002/raddecs.
 
 
 Contributing
@@ -35,7 +35,7 @@ License
 
 MIT License
 
-Copyright (c) 2020-2022 reelyActive
+Copyright (c) 2022-2023 reelyActive
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

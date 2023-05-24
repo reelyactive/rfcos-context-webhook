@@ -6,7 +6,6 @@ const RFC_OPTIONS = {
     url: "ws://localhost:61613/websockets/messaging",
     username: "admin",
     password: "admin",
-    regionIds: [],     // These are required to receive data
     isDebug: false
 };
 const WEBHOOK_OPTIONS = {
